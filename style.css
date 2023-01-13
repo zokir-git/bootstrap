@@ -12,6 +12,7 @@ body {
   background: #07003b;
   color: #fff;
   padding: 10px 0;
+  margin-bottom: 3.1rem;
 }
 .web__header-wrapper .web__header {
   display: flex;
@@ -44,4 +45,42 @@ body {
 .web__navbar .location img,
 .web__navbar .phone img {
   margin-right: 1rem;
+}
+
+.bonus__box-wrapper {
+  text-align: center;
+}
+.bonus__box-wrapper .bonus__titel {
+  margin-bottom: 6rem;
+  font-weight: 700;
+  font-size: 36px;
+  color: #07003b;
+}
+.bonus__box-wrapper .col img {
+  margin-bottom: 1rem;
+}
+.bonus__box-wrapper .bonus__box {
+  position: relative;
+}
+.bonus__box-wrapper .bonus__box::after {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  background-image: url(./images/left__arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  position: absolute;
+  left: -2rem;
+  top: 1rem;
+}
+.bonus__box-wrapper .bonus__box::before {
+  content: "";
+  width: 3rem;
+  height: 3rem;
+  background-image: url(./images/right__arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  position: absolute;
+  right: -2rem;
+  top: 1rem;
 }/*# sourceMappingURL=style.css.map */
