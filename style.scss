@@ -5,6 +5,31 @@
 }
 
 $primary-color: #07003b;
+$bg-success: #1cb60e;
+$bg-reddish: #ff027e;
+$bg-primary: #2f80ed;
+$bg-danger: #d41313;
+$bg-light-red: #f95f09;
+$bg-warning: #fccc43;
+
+.bg-green {
+  background-color: $bg-success;
+}
+.bg-reddish {
+  background-color: $bg-reddish;
+}
+.bg-primary {
+  background-color: $bg-primary;
+}
+.bg-danger {
+  background-color: $bg-danger;
+}
+.bg-light-red {
+  background-color: $bg-light-red;
+}
+.bg-warning {
+  background-color: $bg-warning;
+}
 body {
   font-family: "Ubuntu", sans-serif;
 }
@@ -86,5 +111,74 @@ body {
     position: absolute;
     right: -2rem;
     top: 1rem;
+  }
+}
+
+// discount cards section starts
+
+.discount-wrapper{
+  margin-bottom: 4rem;
+}
+.common__btn {
+  padding: 0.5rem 4rem;
+  font-weight: 300;
+  font-size: 14px;
+  color: $primary-color;
+}
+.common__btn:hover {
+  background: $primary-color;
+  color: #fff;
+}
+.row {
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
+}
+.discount__card {
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+  padding: 0;
+  // background-image: url(./images/yapona__mama.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 410px;
+  position: relative;
+
+  .brand__logo {
+    position: absolute;
+    width: 100%;
+    padding: 0 0.5rem;
+    top: 5px;
+    // background-color: #1cb60e;
+    .brand__percent {
+      display: inline-block;
+      padding: 0.1rem 1.6rem;
+      background-color: #fff;
+      border-radius: 0.3rem;
+      font-weight: 700;
+      font-size: 20px;
+      color: $bg-reddish;
+      margin-left: 47%;
+    }
+  }
+}
+
+.discount__card-titel {
+  position: absolute;
+  bottom: 10px;
+  left: 0.5rem;
+  .building__name {
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  .building__type {
+    font-weight: 300;
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: #fff;
   }
 }
