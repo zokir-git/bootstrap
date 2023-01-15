@@ -116,7 +116,7 @@ body {
 
 // discount cards section starts
 
-.discount-wrapper{
+.discount-wrapper {
   margin-bottom: 4rem;
 }
 .common__btn {
@@ -135,7 +135,7 @@ body {
 }
 .discount__card {
   background: #ffffff;
-  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 4px 25px rgba(103, 101, 101, 0.08);
   border-radius: 3px;
   padding: 0;
   // background-image: url(./images/yapona__mama.png);
@@ -162,6 +162,9 @@ body {
     }
   }
 }
+.discount__card:hover {
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+}
 
 .discount__card-titel {
   position: absolute;
@@ -180,5 +183,49 @@ body {
     display: inline-block;
     margin-bottom: 0.5rem;
     color: #fff;
+  }
+}
+
+.show__more {
+  text-align: center;
+  margin-bottom: 3rem;
+  .show__more-btn {
+    border: none;
+    background-color: $primary-color;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 0.2rem;
+    font-weight: 300;
+    font-size: 14px;
+    box-shadow: 0px 5px 30px rgba(7, 0, 59, 0.5);
+  }
+}
+
+.web__footer-wrapper {
+  background-color: $primary-color;
+  padding: 1rem 0;
+  .foooter__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+
+  .footer__text,
+  .footer__phone-number {
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+.social__media {
+  .facebook,
+  .instagram,
+  .telegram {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1rem;
+
+    font-weight: 400;
+    font-size: 14px;
   }
 }

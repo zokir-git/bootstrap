@@ -132,7 +132,7 @@ body {
 
 .discount__card {
   background: #ffffff;
-  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 4px 25px rgba(103, 101, 101, 0.08);
   border-radius: 3px;
   padding: 0;
   background-repeat: no-repeat;
@@ -157,6 +157,10 @@ body {
   margin-left: 47%;
 }
 
+.discount__card:hover {
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+}
+
 .discount__card-titel {
   position: absolute;
   bottom: 10px;
@@ -175,4 +179,45 @@ body {
   display: inline-block;
   margin-bottom: 0.5rem;
   color: #fff;
+}
+
+.show__more {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.show__more .show__more-btn {
+  border: none;
+  background-color: #07003b;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+  font-weight: 300;
+  font-size: 14px;
+  box-shadow: 0px 5px 30px rgba(7, 0, 59, 0.5);
+}
+
+.web__footer-wrapper {
+  background-color: #07003b;
+  padding: 1rem 0;
+}
+.web__footer-wrapper .foooter__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.web__footer-wrapper .footer__text,
+.web__footer-wrapper .footer__phone-number {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.social__media .facebook,
+.social__media .instagram,
+.social__media .telegram {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 1rem;
+  font-weight: 400;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
